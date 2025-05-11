@@ -1,0 +1,55 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.forms-transmetro{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media (max-width: 990px) {
+    .forms-transmetro{
+        flex-direction: column;
+    }
+}
+
+.select-group-transmetro{
+    border-radius: 3%;
+    border: 1px solid rgb(201, 197, 197);    
+    outline: none;
+    text-align: center;
+}
+
+
+
+.select-group-transmetro:hover{
+    border: 1px solid ;
+    box-shadow: 3px 3px 3px #87ec90;
+}
+
+
+.buttons-send-information{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+
+#save-button{
+    margin-right: 10px;
+    width: 18%;
+    border-radius: 8%;
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.674);
+}
+
+#save-button:hover{
+    background-color: rgba(130, 236, 130, 0.529);
+}
+
+.tbl-head-custom{
+    background-image: linear-gradient(to right, #2bdb3a, #87ec90);
+}
